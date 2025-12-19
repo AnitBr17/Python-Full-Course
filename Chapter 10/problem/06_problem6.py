@@ -5,7 +5,7 @@ class Train:
     def __init__(slf, trainNo):
         slf.trainNo = trainNo
         
-    def book(self, fro, to): # fro means from
+    def book(self, fro, to): # fro means from.
         print(f"Tikcet is booked in train no: {self.trainNo} from {fro} to {to}")
         
     def getStatus(self):
